@@ -55,6 +55,12 @@ needs to be in *the same folder* as the jupyter notebook. In the first cell in *
 
 ## 4. Full Paper Replication
 
+To run the code as intended, please make sure that all the modules in *section 2* are installed before importing them. Ideally, use the same versions of each module as we did. Furthermore, pay attention to *section 3: Data Importation*. In order to import the data as intended, find the working directory of all replication files and change the directory to that folder in the following line:
+
+<img width="474" alt="Screenshot 2023-03-19 at 17 19 16" src="https://user-images.githubusercontent.com/123584534/226189518-cb964f6e-df43-456e-bd1a-235aabf8c4d4.png">
+
+Do *not* change the filename or sheet-name variables in the cell.
+
 To replicate all figures and tables used in the paper, take note of the only cell in *section 1: Model Specification*. It is in this cell where you can change between the model specifications used. As outlined in the paper, we consider 3 models: 
 
 1. BHK: $e_t^{(2)}$ and $e_t^{(5)}$
